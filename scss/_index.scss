@@ -1,0 +1,70 @@
+
+//section1
+.banner{
+    background-image: url(../img/CHANELPARIS.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 870px;
+    font-size: 24px;
+    max-width: 100%;
+    @include mobileL{
+        background-image: url(../img/CHANELPARISmob.png);
+        height: 480px;
+        z-index: -1;
+        p{
+            font-size: 20px;
+        }
+    }
+
+}
+
+//section2
+
+//section 3
+.indexsection3{
+    ul{
+        list-style-type: none;
+        margin-bottom: 60px;    
+    }
+    img{
+        object-fit: cover;
+        @include mobileL{
+            width: 345px;   
+            height: 350px;
+        }
+    }
+    li:nth-child(1){
+        img{
+            object-position: bottom;
+        }
+    } 
+    .soldout{
+        color: $white;
+        background: rgba(0,0,0,0.3);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        max-width: 350px;
+        font-weight: $font-weight-normal;
+    }
+}
+//section 4
+.indexsection4{
+    img{
+        height: 520px;
+        object-fit: cover;
+    }
+}
+//subscrible
+.subscrible{
+    height: 600px;
+    background-image: url(../img/d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 312px;
+    @include mobileL{
+        background-image: url(../img/srbarth.png);
+    }
+}
+

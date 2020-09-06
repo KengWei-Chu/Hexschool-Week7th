@@ -17,7 +17,7 @@
 
   &:hover {
     z-index: 2;
-    color: $pagination-hover-color;
+    color: $pagination-hover-color; //$pagination-hover-color
     text-decoration: none;
     background-color: $pagination-hover-bg;
     border-color: $pagination-hover-border-color;
@@ -45,7 +45,7 @@
 
   &.active .page-link {
     z-index: 3;
-    color: $pagination-active-color;
+    color: $pagination-active-color; //$pagination-hover-color
     background-color: $pagination-active-bg;
     border-color: $pagination-active-border-color;
   }

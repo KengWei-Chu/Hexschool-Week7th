@@ -158,14 +158,18 @@ $spacers: map-merge(
     7: ($spacer * 3),   //48
     8: ($spacer * 3.75), //60
     9: ($spacer * 4), //64
+    10:($spacer * .625), //10
     20:($spacer * 1.25), //20
+    30:($spacer * 1.875), //30
     36:($spacer * 2.25), //36
     18:($spacer * 1.125), //18
     15:($spacer * .9375), //15
     77:($spacer * .4375), //7
+    80:($spacer * 5),    //80
     14:($spacer * .875), //14
     12:($spacer * .75), //12
     106:($spacer * 6.625), //106
+    75:($spacer * .46875), //7.5
   ),
   $spacers
 );
@@ -302,7 +306,7 @@ $embed-responsive-aspect-ratios: join(
 
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      "微軟正黑體","SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-monospace:       Arial, "Noto Sans",sans-serif,"SF Pro Text",SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",  !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
